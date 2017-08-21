@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{59412220-7146-4213-90ba-0e7bdde952ff}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>练习项目\001.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="001 基础语法\001 第一个Python程序.py" />
+    <Compile Include="001 基础语法\002 Python保留字.py" />
+    <Compile Include="001 基础语法\003 多行语句.py" />
+    <Compile Include="001 基础语法\004 数据类型与字符串.py" />
+    <Compile Include="001 基础语法\005 print和input.py" />
+    <Compile Include="001 基础语法\006 import.py" />
+    <Compile Include="002 基本数据类型\001 变量.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="002 基本数据类型\002 标准数据类型.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="002 基本数据类型\003 数据类型转换.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TEST.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="练习项目\001.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="001 基础语法" />
+    <Folder Include="002 基本数据类型\" />
+    <Folder Include="练习项目\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
