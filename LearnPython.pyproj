@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{59412220-7146-4213-90ba-0e7bdde952ff}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>练习项目\001.py</StartupFile>
+    <StartupFile>练习项目\002 斐波那契数列.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -38,6 +38,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="练习项目\001.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="练习项目\002 斐波那契数列.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
