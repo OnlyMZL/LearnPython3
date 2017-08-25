@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{59412220-7146-4213-90ba-0e7bdde952ff}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>练习项目\002 斐波那契数列.py</StartupFile>
+    <StartupFile>004 运算符\001 运算符.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -34,6 +34,15 @@
     <Compile Include="002 基本数据类型\003 数据类型转换.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="003 注释\001 注释.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="004 运算符\001 运算符.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="004 运算符\002 运算符优先级.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TEST.py">
       <SubType>Code</SubType>
     </Compile>
@@ -47,6 +56,8 @@
   <ItemGroup>
     <Folder Include="001 基础语法" />
     <Folder Include="002 基本数据类型\" />
+    <Folder Include="003 注释\" />
+    <Folder Include="004 运算符\" />
     <Folder Include="练习项目\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
